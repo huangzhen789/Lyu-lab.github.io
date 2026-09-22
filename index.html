@@ -219,16 +219,18 @@
       <div class="shell">
         <div class="section-heading split-heading reveal">
           <div><p class="eyebrow">PEOPLE</p><h2 data-zh="跨学科团队" data-en="An interdisciplinary team">跨学科团队</h2></div>
-          <p data-zh="团队面向机械、材料、化学、能源、力学与人工智能等背景招募研究生、本科生与博士后。当前独立官网版本先展示PI，完整成员名录可在拿到课题组名单后直接扩展。" data-en="The group welcomes researchers from mechanical engineering, materials, chemistry, energy, mechanics and AI. This first independent-site version features the PI and is ready to expand once a full member roster is provided.">团队面向机械、材料、化学、能源、力学与人工智能等背景招募研究生、本科生与博士后。当前独立官网版本先展示PI，完整成员名录可在拿到课题组名单后直接扩展。</p>
+          <p data-zh="团队汇聚机械、材料、化学、能源、力学与人工智能等不同背景的研究人员，围绕先进制造、机械超材料、数据驱动设计与功能器件开展交叉研究。" data-en="The group brings together researchers from mechanical engineering, materials, chemistry, energy, mechanics and AI to pursue interdisciplinary work in advanced manufacturing, mechanical metamaterials, data-driven design and functional devices.">团队汇聚机械、材料、化学、能源、力学与人工智能等不同背景的研究人员，围绕先进制造、机械超材料、数据驱动设计与功能器件开展交叉研究。</p>
         </div>
         <div class="people-placeholder reveal">
-          <div class="people-rail">
-            <span class="active" data-zh="负责人" data-en="PI">负责人</span><span data-zh="博士后" data-en="Postdocs">博士后</span><span data-zh="博士生" data-en="Ph.D. Students">博士生</span><span data-zh="硕士生" data-en="Master Students">硕士生</span><span data-zh="本科生" data-en="Undergraduates">本科生</span><span data-zh="毕业成员" data-en="Alumni">毕业成员</span>
+          <div class="people-rail" role="tablist" aria-label="Team categories">
+            <button class="people-tab active" type="button" data-group="pi" data-zh="负责人" data-en="PI">负责人</button>
+            <button class="people-tab" type="button" data-group="postdoc" data-zh="博士后" data-en="Postdocs">博士后</button>
+            <button class="people-tab" type="button" data-group="phd" data-zh="博士生" data-en="Ph.D. Students">博士生</button>
+            <button class="people-tab" type="button" data-group="master" data-zh="硕士生" data-en="Master Students">硕士生</button>
+            <button class="people-tab" type="button" data-group="undergrad" data-zh="本科生" data-en="Undergraduates">本科生</button>
+            <button class="people-tab" type="button" data-group="alumni" data-zh="毕业成员" data-en="Alumni">毕业成员</button>
           </div>
-          <article class="member-card">
-            <div class="member-avatar"><img src="https://me.seu.edu.cn/_upload/article/images/42/de/14f5181f4744ba4e7e53b40e7daa/06c4f21f-17b6-4e7d-9d0a-0fb72f307fd7_s.jpg" alt="吕之阳教授" /></div>
-            <div><p class="member-role">PRINCIPAL INVESTIGATOR</p><h3 data-zh="吕之阳 教授" data-en="Prof. Zhiyang Lyu">吕之阳 教授</h3><p data-zh="3D/4D打印 · 结构材料 · 能源器件 · 数据驱动设计" data-en="3D/4D printing · structural materials · energy devices · data-driven design">3D/4D打印 · 结构材料 · 能源器件 · 数据驱动设计</p></div>
-          </article>
+          <div id="member-list" class="member-list" aria-live="polite"></div>
         </div>
       </div>
     </section>
