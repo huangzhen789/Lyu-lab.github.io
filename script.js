@@ -38,7 +38,7 @@ const teamMembers = [
     email: '220250331@seu.edu.cn'
   },
   {
-    group: 'doctor',
+    group: 'phd',
     nameZh: '王嘉颖',
     nameEn: 'Jiaying Wang',
     roleZh: '博士研究生 · 2025级',
@@ -49,7 +49,7 @@ const teamMembers = [
     email: '230258780@seu.edu.cn'
   },
   {
-    group: 'doctor',
+    group: 'phd',
     nameZh: '石昌松',
     nameEn: 'Changsong shi',
     roleZh: '博士研究生 · 2024级',
