@@ -33,10 +33,10 @@ const teamMembers = [
     roleZh: '硕士研究生 · 2025级',
     roleEn: "Master's Student · Class of 2025",
     photo: 'assets/huang-zhen.jpg',
-    interestsZh: '机械超材料 · 机器学习 · 结构设计 · 有限元仿真',
+    interestsZh: '机械超材料 · 物理信息驱动机器学习 · 逆向设计 · 有限元仿真',
     interestsEn: 'Mechanical metamaterials · physics-informed machine learning · inverse design · finite-element simulation',
-    metaZh: '机械工程｜代表成果：Physics-informed mixture-of-experts inverse design of programmable tensile metamaterials',
-    metaEn: 'Mechanical Engineering | Representative work: Physics-informed mixture-of-experts inverse design of programmable tensile metamaterials',
+    metaZh: '机械工程｜代表成果：可编程拉伸超材料的物理信息驱动混合专家逆向设计',
+    metaEn: 'Mechanical Engineering | Representative work: physics-informed mixture-of-experts inverse design of programmable tensile metamaterials',
     email: '220250331@seu.edu.cn'
   }
 ];
@@ -140,3 +140,55 @@ document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 document.querySelectorAll('.pi-photo').forEach(img => {
   img.addEventListener('error', () => { img.style.display = 'none'; });
 });
+
+
+// ===== Hero research carousel =====
+const paperSlides = [...document.querySelectorAll('.paper-slide')];
+const paperDots = [...document.querySelectorAll('.paper-dot')];
+let paperSlideIndex = 0;
+let paperSlideTimer = null;
+
+function showPaperSlide(index){
+  if(!paperSlides.length) return;
+
+  paperSlideIndex = (index + paperSlides.length) % paperSlides.length;
+
+  paperSlides.forEach((slide, i) => {
+    slide.classList.toggle('active', i === paperSlideIndex);
+  });
+
+  paperDots.forEach((dot, i) => {
+    dot.classList.toggle('active', i === paperSlideIndex);
+  });
+}
+
+function startPaperCarousel(){
+  if(paperSlides.length <= 1) return;
+
+  clearInterval(paperSlideTimer);
+  paperSlideTimer = setInterval(() => {
+    showPaperSlide(paperSlideIndex + 1);
+  }, 5000);
+}
+
+paperDots.forEach((dot, index) => {
+  dot.addEventListener('click', (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    showPaperSlide(index);
+    startPaperCarousel();
+  });
+});
+
+const paperShowcase = document.querySelector('.paper-showcase');
+
+paperShowcase?.addEventListener('mouseenter', () => {
+  clearInterval(paperSlideTimer);
+});
+
+paperShowcase?.addEventListener('mouseleave', () => {
+  startPaperCarousel();
+});
+
+showPaperSlide(0);
+startPaperCarousel();

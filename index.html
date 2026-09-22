@@ -6,7 +6,7 @@
   <meta name="description" content="吕之阳课题组｜东南大学机械工程学院。研究方向涵盖增材制造、4D打印、数据驱动结构设计、结构电池、气凝胶与多功能结构材料。" />
   <meta name="theme-color" content="#07111f" />
   <title>吕之阳课题组 | Lyu Research Group</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=hero-carousel-1" />
 </head>
 <body>
   <div class="page-noise" aria-hidden="true"></div>
@@ -53,36 +53,54 @@
           </div>
         </div>
 
-        <div class="hero-visual reveal" aria-hidden="true">
-          <div class="orb orb-a"></div><div class="orb orb-b"></div>
-          <div class="lattice-card">
-            <div class="lattice-topline"><span>STRUCTURE / FUNCTION / DATA</span><b>SEU · ME</b></div>
-            <svg class="lattice" viewBox="0 0 620 520" role="img">
-              <defs>
-                <linearGradient id="lineG" x1="0" y1="0" x2="1" y2="1">
-                  <stop offset="0" stop-color="#6ee7f8"/><stop offset="0.55" stop-color="#7c8cff"/><stop offset="1" stop-color="#a78bfa"/>
-                </linearGradient>
-                <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-              </defs>
-              <g stroke="url(#lineG)" stroke-width="3" fill="none" opacity=".88" filter="url(#glow)">
-                <path d="M80 420 L180 340 L280 420 L380 340 L480 420"/>
-                <path d="M80 300 L180 220 L280 300 L380 220 L480 300"/>
-                <path d="M80 180 L180 100 L280 180 L380 100 L480 180"/>
-                <path d="M80 420 L80 300 L80 180"/><path d="M180 340 L180 220 L180 100"/>
-                <path d="M280 420 L280 300 L280 180"/><path d="M380 340 L380 220 L380 100"/>
-                <path d="M480 420 L480 300 L480 180"/>
-                <path d="M80 420 L180 220 L280 420 L380 220 L480 420" opacity=".42"/>
-                <path d="M80 180 L180 340 L280 180 L380 340 L480 180" opacity=".42"/>
-              </g>
-              <g fill="#dffbff">
-                <circle cx="80" cy="420" r="7"/><circle cx="180" cy="340" r="7"/><circle cx="280" cy="420" r="7"/><circle cx="380" cy="340" r="7"/><circle cx="480" cy="420" r="7"/>
-                <circle cx="80" cy="300" r="7"/><circle cx="180" cy="220" r="7"/><circle cx="280" cy="300" r="7"/><circle cx="380" cy="220" r="7"/><circle cx="480" cy="300" r="7"/>
-                <circle cx="80" cy="180" r="7"/><circle cx="180" cy="100" r="7"/><circle cx="280" cy="180" r="7"/><circle cx="380" cy="100" r="7"/><circle cx="480" cy="180" r="7"/>
-              </g>
-            </svg>
-            <div class="visual-label label-a">DATA-DRIVEN DESIGN</div>
-            <div class="visual-label label-b">ADDITIVE MANUFACTURING</div>
-            <div class="visual-label label-c">MULTIFUNCTIONAL STRUCTURES</div>
+        <div class="hero-visual reveal">
+          <div class="paper-showcase" aria-label="Selected research highlights">
+
+            <a class="paper-slide active"
+               href="https://scholar.google.com/scholar?q=%22Physics-informed+mixture-of-experts+framework+for+extended+inverse+design+of+programmable+tensile+metamaterials%22"
+               target="_blank"
+               rel="noopener">
+              <img src="assets/publications/paper-01.jpg"
+                   alt="Physics-informed mixture-of-experts framework for extended inverse design of programmable tensile metamaterials" />
+              <div class="paper-slide-overlay">
+                <span class="paper-journal">Virtual and Physical Prototyping · 2026</span>
+                <h3>Physics-informed mixture-of-experts framework for extended inverse design of programmable tensile metamaterials</h3>
+                <p>Chengyu Wen, Zhen Huang, et al., Zhiyang Lyu*</p>
+              </div>
+            </a>
+
+            <a class="paper-slide"
+               href="https://scholar.google.com/scholar?q=%22Data-driven+design+of+disordered+structures+for+direction-+and+geometry-independent+stretchable+electrodes%22"
+               target="_blank"
+               rel="noopener">
+              <img src="assets/publications/paper-02.jpg"
+                   alt="Data-driven design of disordered structures for direction- and geometry-independent stretchable electrodes" />
+              <div class="paper-slide-overlay">
+                <span class="paper-journal">npj Flexible Electronics · 2026</span>
+                <h3>Data-driven design of disordered structures for direction- and geometry-independent stretchable electrodes</h3>
+                <p>Mengli Li, Linhan Fan, Yilei Fu, et al., Zhiyang Lyu*</p>
+              </div>
+            </a>
+
+            <a class="paper-slide"
+               href="https://scholar.google.com/scholar?q=%223D-printed+monolithic+wearable+devices+with+wireless+charging+batteries+and+multimodal+sensors+for+physiological+monitoring%22"
+               target="_blank"
+               rel="noopener">
+              <img src="assets/publications/paper-03.jpg"
+                   alt="3D-printed monolithic wearable devices with wireless charging batteries and multimodal sensors for physiological monitoring" />
+              <div class="paper-slide-overlay">
+                <span class="paper-journal">International Journal of Extreme Manufacturing · 2026</span>
+                <h3>3D-printed monolithic wearable devices with wireless charging batteries and multimodal sensors for physiological monitoring</h3>
+                <p>Jiani Gong, Songze Fu, Haiwei Dou, et al., Zhiyang Lyu*</p>
+              </div>
+            </a>
+
+            <div class="paper-dots" aria-label="Slide navigation">
+              <button class="paper-dot active" type="button" aria-label="Show slide 1"></button>
+              <button class="paper-dot" type="button" aria-label="Show slide 2"></button>
+              <button class="paper-dot" type="button" aria-label="Show slide 3"></button>
+            </div>
+
           </div>
         </div>
       </div>
@@ -110,51 +128,19 @@
             <img class="pi-photo" src="https://me.seu.edu.cn/_upload/article/images/42/de/14f5181f4744ba4e7e53b40e7daa/06c4f21f-17b6-4e7d-9d0a-0fb72f307fd7_s.jpg" alt="吕之阳教授" />
             <div class="pi-photo-fallback">LYU</div>
           </div>
-          <div class="pi-history">
-              <p data-zh="2014年｜南京大学，获得博士学位"
-                 data-en="2014 | Ph.D., Nanjing University">
-                2014年｜南京大学，获得博士学位
-              </p>
-            
-              <p data-zh="2015—2020年｜新加坡国立大学，博士后研究"
-                 data-en="2015–2020 | Postdoctoral Research, National University of Singapore">
-                2015—2020年｜新加坡国立大学，博士后研究
-              </p>
-            
-              <p data-zh="2020年｜加入东南大学机械工程学院"
-                 data-en="2020 | Joined the School of Mechanical Engineering, Southeast University">
-                2020年｜加入东南大学机械工程学院
-              </p>
-            
-              <p data-zh="2022年至今｜东南大学教授"
-                 data-en="2022–Present | Professor, Southeast University">
-                2022年至今｜东南大学教授
-              </p>
-            
-              <p data-zh="2024年｜江苏省科技进步一等奖（排名第3）"
-                 data-en="2024 | First Prize, Jiangsu Provincial Science and Technology Progress Award (Ranked 3rd)">
-                2024年｜江苏省科技进步一等奖（排名第3）
-              </p>
-            
+          <div class="pi-copy">
+            <span class="pill" data-zh="课题组负责人 / PI" data-en="Principal Investigator">课题组负责人 / PI</span>
+            <h3 data-zh="吕之阳 教授" data-en="Prof. Zhiyang Lyu">吕之阳 教授</h3>
+            <p class="pi-role" data-zh="东南大学青年首席教授 · 博士生导师 · 国家级青年人才计划入选者（2021）" data-en="Young Chief Professor · Ph.D. Supervisor · National-level Young Talent Program awardee (2021)">东南大学青年首席教授 · 博士生导师 · 国家级青年人才计划入选者（2021）</p>
+            <p data-zh="2014年于南京大学获得博士学位；2015—2020年在新加坡国立大学开展博士后研究；2020年加入东南大学机械工程学院，2022年至今任教授。2024年获江苏省科技进步一等奖（排名第3）。" data-en="He received his Ph.D. from Nanjing University in 2014 and conducted postdoctoral research at the National University of Singapore from 2015 to 2020. He joined Southeast University in 2020 and has served as Professor since 2022. He received the 2024 Jiangsu Provincial Science and Technology Progress First Prize (ranked 3rd).">2014年于南京大学获得博士学位；2015—2020年在新加坡国立大学开展博士后研究；2020年加入东南大学机械工程学院，2022年至今任教授。2024年获江苏省科技进步一等奖（排名第3）。</p>
+            <div class="pi-links">
+              <a href="mailto:zhiyanglyu@seu.edu.cn">zhiyanglyu@seu.edu.cn</a>
+              <a href="https://me.seu.edu.cn/lzy/list.htm" target="_blank" rel="noopener" data-zh="东南大学官方主页 ↗" data-en="Official SEU profile ↗">东南大学官方主页 ↗</a>
             </div>
+          </div>
+        </div>
 
-                  <div class="pi-links">
-                    <a href="mailto:zhiyanglyu@seu.edu.cn">
-                      zhiyanglyu@seu.edu.cn
-                    </a>
-                  
-                    <a href="https://me.seu.edu.cn/lzy/list.htm"
-                       target="_blank"
-                       rel="noopener"
-                       data-zh="东南大学官方主页 ↗"
-                       data-en="Official SEU profile ↗">
-                      东南大学官方主页 ↗
-                    </a>
-                  </div>
-                  
-                  </div>
-                  
-                  <div class="timeline reveal">
+        <div class="timeline reveal">
           <div class="timeline-line"></div>
           <article><time>2009—2015</time><div><h4 data-zh="南京大学 · 理学博士" data-en="Nanjing University · Ph.D.">南京大学 · 理学博士</h4><p data-zh="导师：胡征教授、王喜章教授" data-en="Supervisors: Prof. Zheng Hu, Prof. Xizhang Wang">导师：胡征教授、王喜章教授</p></div></article>
           <article><time>2015—2017</time><div><h4 data-zh="新加坡国立大学 · 化学系" data-en="National University of Singapore · Chemistry">新加坡国立大学 · 化学系</h4><p data-zh="博士后研究员；合作导师：Wei Chen 教授" data-en="Postdoctoral Research Fellow; PI: Prof. Wei Chen">博士后研究员；合作导师：Wei Chen 教授</p></div></article>
@@ -222,15 +208,12 @@
         </div>
 
         <div class="pub-list">
-          <article class="pub-item reveal"><span class="pub-year">2026</span><div><span class="pub-type">International Journal of Extreme Manufacturing</span><h3>3D-printed monolithic wearable devices with wireless charging batteries and multimodal sensors for physiological monitoring</h3><p>Jiani Gong, Songze Fu, Haiwei Dou, et al., Yunfei Chen*, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></article>
-          <article class="pub-item reveal"><span class="pub-year">2026</span><div><span class="pub-type">npj Flexible Electronics</span><h3>Data-driven design of disordered structures for direction- and geometry-independent stretchable electrodes</h3><p>Mengli Li, Linhan Fan, Yilei Fu, et al., Yunfei Chen*, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></article>
-          <a class="pub-item reveal"
-   href="https://scholar.google.com/scholar?q=%22Physics-informed+mixture-of-experts+framework+for+extended+inverse+design+of+programmable+tensile+metamaterials%22"
-   target="_blank"
-   rel="noopener"><span class="pub-year">2026</span><div><span class="pub-type">Virtual and Physical Prototyping</span><h3>Physics-informed mixture-of-experts framework for extended inverse design of programmable tensile metamaterials</h3><p>Chengyu Wen, Zhen Huang, Mengli Li*, Yihe Yue, Yunfei Chen, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></a>
-          <article class="pub-item reveal"><span class="pub-year">2026</span><div><span class="pub-type">Energy Storage Materials</span><h3>Bouligand-structured ultrathick electrodes for impact-resistant 3D-printed batteries</h3><p>Chi Guo, Xianglin Zhou, Changsong Shi, et al., Wei Liu*, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></article>
-          <article class="pub-item reveal"><span class="pub-year">2026</span><div><span class="pub-type">Materials Science and Engineering: R: Reports</span><h3>Directional freeze-casting of aerogels: Structure, properties, and applications</h3><p>Peiyu Luo, Xin Zhang, Yihe Yue, Zhuohang Wang, Changsong Shi, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></article>
-          <article class="pub-item reveal"><span class="pub-year">2021</span><div><span class="pub-type">Joule</span><h3>Design and Manufacture of 3D-Printed Batteries</h3><p>Zhiyang Lyu*, Gwendolyn J. H. Lim, J. Justin Koh, et al., Yunfei Chen*</p></div><span class="pub-arrow">↗</span></article>
+          <article class="pub-item reveal"><span class="pub-year">2026</span><div><span class="pub-type">INT. J. EXTREM. MANUF.</span><h3>3D-printed monolithic wearable devices with wireless charging batteries and multimodal sensors for physiological monitoring</h3><p>Jiani Gong, Songze Fu, Haiwei Dou, et al., Yunfei Chen*, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></article>
+          <article class="pub-item reveal"><span class="pub-year">2026</span><div><span class="pub-type">npj FLEXIBLE ELECTRONICS</span><h3>Data-driven design of disordered structures for direction- and geometry-independent stretchable electrodes</h3><p>Mengli Li, Linhan Fan, Yilei Fu, et al., Yunfei Chen*, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></article>
+          <article class="pub-item reveal"><span class="pub-year">2026</span><div><span class="pub-type">VIRTUAL AND PHYSICAL PROTOTYPING</span><h3>Physics-informed mixture-of-experts framework for extended inverse design of programmable tensile metamaterials</h3><p>Chengyu Wen, Zhen Huang, Mengli Li*, Yihe Yue, Yunfei Chen, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></article>
+          <article class="pub-item reveal"><span class="pub-year">2026</span><div><span class="pub-type">ENERGY STORAGE MATERIALS</span><h3>Bouligand-structured ultrathick electrodes for impact-resistant 3D-printed batteries</h3><p>Chi Guo, Xianglin Zhou, Changsong Shi, et al., Wei Liu*, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></article>
+          <article class="pub-item reveal"><span class="pub-year">2026</span><div><span class="pub-type">MATERIALS SCIENCE & ENGINEERING R</span><h3>Directional freeze-casting of aerogels: Structure, properties, and applications</h3><p>Peiyu Luo, Xin Zhang, Yihe Yue, Zhuohang Wang, Changsong Shi, Zhiyang Lyu*</p></div><span class="pub-arrow">↗</span></article>
+          <article class="pub-item reveal"><span class="pub-year">2021</span><div><span class="pub-type">JOULE</span><h3>Design and Manufacture of 3D-Printed Batteries</h3><p>Zhiyang Lyu*, Gwendolyn J. H. Lim, J. Justin Koh, et al., Yunfei Chen*</p></div><span class="pub-arrow">↗</span></article>
         </div>
       </div>
     </section>
@@ -310,6 +293,6 @@
   </footer>
 
   <button class="back-top" aria-label="返回顶部">↑</button>
-  <script src="script.js"></script>
+  <script src="script.js?v=hero-carousel-1"></script>
 </body>
 </html>
