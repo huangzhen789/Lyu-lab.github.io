@@ -47,6 +47,17 @@ const teamMembers = [
     interestsZh: '4D打印 · 智能器件 · 结构设计',
     interestsEn: '4D Printing · Smart Devices · Structural Design',
     email: '230258780@seu.edu.cn'
+  },
+  {
+    group: 'doctor',
+    nameZh: '石昌松',
+    nameEn: 'Changsong shi',
+    roleZh: '博士研究生 · 2024级',
+    roleEn: "Doctor's Student · Class of 2024",
+    photo: 'assets/LiZi.jpg',
+    interestsZh: '3D打印 · 气凝胶材料· 结构设计',
+    interestsEn: '3D Printing · Aerogel Materials · Structural Design',
+    email: '230248722@seu.edu.cn'
   }
 ];
 
