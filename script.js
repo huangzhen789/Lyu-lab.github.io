@@ -36,7 +36,7 @@ const teamMembers = [
     interestsZh: '机械超材料 · 机器学习 · 结构设计 · 有限元仿真',
     interestsEn: 'Mechanical metamaterials · physics-informed machine learning · inverse design · finite-element simulation',
     email: '220250331@seu.edu.cn'
-  }，
+  },
   {
   group: 'phd',
   nameZh: '张三',
