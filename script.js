@@ -33,7 +33,7 @@ const teamMembers = [
     roleZh: '硕士研究生 · 2025级',
     roleEn: "Master's Student · Class of 2025",
     photo: 'assets/huang-zhen.jpg',
-    interestsZh: '机械超材料 · 物理信息驱动机器学习 · 逆向设计 · 有限元仿真',
+    interestsZh: '机械超材料 · 机器学习 · 结构设计 · 有限元仿真',
     interestsEn: 'Mechanical metamaterials · physics-informed machine learning · inverse design · finite-element simulation',
     metaZh: '机械工程｜代表成果：Physics-informed mixture-of-experts inverse design of programmable tensile metamaterials',
     metaEn: 'Mechanical Engineering | Representative work: Physics-informed mixture-of-experts inverse design of programmable tensile metamaterials',
