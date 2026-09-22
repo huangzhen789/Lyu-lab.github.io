@@ -141,7 +141,6 @@ document.querySelectorAll('.pi-photo').forEach(img => {
   img.addEventListener('error', () => { img.style.display = 'none'; });
 });
 
-
 // ===== Hero research carousel =====
 const paperSlides = [...document.querySelectorAll('.paper-slide')];
 const paperDots = [...document.querySelectorAll('.paper-dot')];
@@ -150,7 +149,6 @@ let paperSlideTimer = null;
 
 function showPaperSlide(index){
   if(!paperSlides.length) return;
-
   paperSlideIndex = (index + paperSlides.length) % paperSlides.length;
 
   paperSlides.forEach((slide, i) => {
@@ -164,7 +162,6 @@ function showPaperSlide(index){
 
 function startPaperCarousel(){
   if(paperSlides.length <= 1) return;
-
   clearInterval(paperSlideTimer);
   paperSlideTimer = setInterval(() => {
     showPaperSlide(paperSlideIndex + 1);
