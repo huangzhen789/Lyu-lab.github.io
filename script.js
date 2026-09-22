@@ -35,8 +35,8 @@ const teamMembers = [
     photo: 'assets/huang-zhen.jpg',
     interestsZh: '机械超材料 · 物理信息驱动机器学习 · 逆向设计 · 有限元仿真',
     interestsEn: 'Mechanical metamaterials · physics-informed machine learning · inverse design · finite-element simulation',
-    metaZh: '机械工程｜代表成果：可编程拉伸超材料的物理信息驱动混合专家逆向设计',
-    metaEn: 'Mechanical Engineering | Representative work: physics-informed mixture-of-experts inverse design of programmable tensile metamaterials',
+    metaZh: '机械工程｜代表成果：Physics-informed mixture-of-experts inverse design of programmable tensile metamaterials',
+    metaEn: 'Mechanical Engineering | Representative work: Physics-informed mixture-of-experts inverse design of programmable tensile metamaterials',
     email: '220250331@seu.edu.cn'
   }
 ];
