@@ -38,15 +38,15 @@ const teamMembers = [
     email: '220250331@seu.edu.cn'
   },
   {
-  group: 'phd',
-  nameZh: '张三',
-  nameEn: 'San Zhang',
-  roleZh: '博士研究生 · 2026级',
-  roleEn: "Master's Student · Class of 2026",
-  photo: 'assets/zhang-san.jpg',
-  interestsZh: '机械超材料 · 有限元分析 · 增材制造',
-  interestsEn: 'Mechanical metamaterials · finite-element analysis · additive manufacturing',
-  email: 'student@seu.edu.cn'
+    group: 'doctor',
+    nameZh: '王嘉颖',
+    nameEn: 'Jiaying Wang',
+    roleZh: '博士研究生 · 2025级',
+    roleEn: "Doctor's Student · Class of 2025",
+    photo: 'assets/joy-wang.jpg',
+    interestsZh: '4D打印 · 智能器件 · 结构设计',
+    interestsEn: '4D Printing · Smart Devices · Structural Design',
+    email: '230258780@seu.edu.cn'
   }
 ];
 
