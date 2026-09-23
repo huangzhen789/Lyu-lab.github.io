@@ -1,3 +1,5 @@
+document.documentElement.classList.add('js');
+
 const header = document.querySelector('.site-header');
 const backTop = document.querySelector('.back-top');
 const navToggle = document.querySelector('.nav-toggle');
