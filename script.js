@@ -211,3 +211,23 @@ paperShowcase?.addEventListener('mouseleave', () => {
 
 showPaperSlide(0);
 startPaperCarousel();
+
+
+// ===== Publications year filter =====
+const publicationFilters = [...document.querySelectorAll('.pub-year-filter')];
+const publicationItems = [...document.querySelectorAll('.pub-list-page .pub-item')];
+
+publicationFilters.forEach(button => {
+  button.addEventListener('click', () => {
+    const year = button.dataset.year;
+
+    publicationFilters.forEach(item => {
+      item.classList.toggle('active', item === button);
+    });
+
+    publicationItems.forEach(item => {
+      const visible = year === 'all' || item.dataset.year === year;
+      item.classList.toggle('is-hidden', !visible);
+    });
+  });
+});
